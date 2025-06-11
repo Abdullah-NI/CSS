@@ -1,0 +1,27 @@
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+    display: grid;
+
+    /* grid templete */
+    /* grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+
+    grid-template-columns:100px 100px 100px ; */
+
+    grid-template-rows: repeat(5,1fr);
+    /* ya */
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+    /* width: 100px;
+    height: 50px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

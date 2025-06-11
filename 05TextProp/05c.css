@@ -1,0 +1,19 @@
+h1{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    /* ya direct */
+    text-decoration: yellow underline;
+}
+p{
+    text-decoration: red overline;
+    text-decoration-style: wavy;
+    /* ya */
+    text-decoration: wavy red overline;
+}
+h3{
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}

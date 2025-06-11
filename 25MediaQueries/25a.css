@@ -1,0 +1,40 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (width: 400px){  /* jab width itni hogi to ye chage ayga*/
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 700px){ /*jab width minimum 700px ya usse jayada ho*/
+    h1{
+        background-color: limegreen;
+    }
+}
+
+@media (max-width: 200px){/* jab width max 200px ho ya usse kam ho*/
+    h1{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 200px) and (max-width:300px) { /*range 200px se 300px ke beche me*/
+    h1{
+        background-color: magenta;
+    }
+}
+@media (orientation: landscape){ /*width ke side se rakhna mobile*/
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}

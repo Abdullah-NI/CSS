@@ -1,0 +1,47 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+/* transform -> it is apply to  all contant persent in div*/
+
+/* 1rotate */
+#one{
+    transform: rotate(45deg);
+}
+
+/* 2 scale */
+#two{
+    transform: scale(0.5); /* dono side se 0.5 time ho gaya*/
+    transform: scale(0.5,2); /* x axis me 0.5 hua and y axis me 2 time hua*/
+    transform: scaleX(2); /* only x axis me 2 time hoga hight per koi diff nhi ayega*/
+}
+
+/* 3) translate */
+#three{
+    transform: translate(100px);/* only x me 100px move kara */
+    transform: translate(100px,100px); /* x aur y dono me*/
+    transform: translate(-100px);/* -ve x me trnaslate hua */
+}
+
+/*4) skwed */
+#four{
+    transform: skew(30deg);
+}
+
+/* all proprertie applu */
+#five{
+    transform:rotate(30deg) translate(150px) ;
+}

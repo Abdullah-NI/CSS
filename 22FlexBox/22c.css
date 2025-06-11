@@ -1,0 +1,30 @@
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+
+   /* allign item */
+    align-items:flex-start ;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;  /* text ke hisab se div aarange hoge taki div ke ander ka contant same base line per aa jay*/
+   
+
+
+
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

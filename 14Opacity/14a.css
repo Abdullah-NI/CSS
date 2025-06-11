@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0,0.5); /* range of alpha 0 to 1*/
+    /* or inform of hexcode */
+    background-color: #00ff007d;  /* range from 00 to ff */
+}
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.5;
+}

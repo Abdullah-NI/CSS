@@ -1,0 +1,29 @@
+/* height and width */
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+}
+
+/* border */
+div{
+    /* 1) border basic*/
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+
+    /* border shortcut */
+    border:5px solid black ;
+
+    /* 2) border side*/
+    border-left: 7px dashed red;
+
+    /* 3)Border radius*/
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+
+}
+h1{
+    border: 2px,dotted purple;
+    border-radius: 50px;
+}

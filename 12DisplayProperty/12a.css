@@ -1,0 +1,16 @@
+h2{
+    background-color: pink;
+    display: inline;
+}
+a{
+    display: block;
+    background-color: yellowgreen;
+}
+/* hr ke niche ka */
+span{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 25px;
+    margin: 20px;
+}

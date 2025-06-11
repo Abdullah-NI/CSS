@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
+button{
+    text-align: right;
+    /* ye kaam nhi karega chki iske pass sarakne ki jagha nhi hai */
+}
+p{
+    text-align: justify;
+}

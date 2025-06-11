@@ -1,0 +1,32 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+
+}
+.eye{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#eye2{
+   
+    left:250px;
+}
+#mout{
+    height: 75px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+   
+}

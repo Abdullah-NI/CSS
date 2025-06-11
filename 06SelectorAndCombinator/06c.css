@@ -1,0 +1,40 @@
+/*4) decendent selector -> yah p ke ander jitne bhi ancher tag hai un per yr prop apply hogi*/
+p a{
+    color: purple;
+    background-color: yellow;
+}
+/* ya paragraph ko class deker use ksro */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color:pink;
+}
+
+
+/* 5) siblilng combinator => means p ke immdiate baad and same level per(means child etc na ho) jitni bhi h3 hai un per apply hoga  */
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* 6.) child combinator=>menas div ke ander jitne bhi direct (same level per ) input hai unhe change karo */
+div>input{
+    background-color:darksalmon ;
+}
+
+/* 7)Attribute Selector */
+input[type="text"]{
+    color: green;
+}
+input[type=password]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
